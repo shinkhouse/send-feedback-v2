@@ -2,7 +2,10 @@
     border-right: 1px solid rgba(0, 0, 0, 0.24);
     width: 400px;
     height: 100%;
-
+    button {
+        text-transform: uppercase;
+        font-weight: 500;
+    }
     main {
         padding: 16px;
     }
@@ -56,5 +59,14 @@
                 display: block;
             }
         }
+        p {
+            margin-bottom: 0px;
+            font-size: 14px;
+        }
+    }
+    footer {
+        margin: 8px 16px;
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
